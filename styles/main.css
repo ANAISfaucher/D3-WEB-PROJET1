@@ -1,0 +1,142 @@
+body{
+font-family: 'Poiret One', cursive;
+}
+
+header{ background-image: url(images/bg-image-header.jpg);
+min-height: 90vh;
+background-repeat: no-repeat;
+background-position: top center;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+text-align: center;
+padding: 2em;
+}
+
+section{
+
+
+}
+
+.header-contente-block {
+background-color: black;
+padding: 5vh;
+}
+
+
+.header-contente-block h1 {
+font-size: 4em;
+font-family: 'Spectral SC', serif;
+color: #00FA9A;
+}
+
+.header-contente-block p {
+  font-family: 'Poiret One', cursive;
+  color: white;
+  font-size: 1.5em;
+}
+
+#bio {
+}
+
+.bio-content-block {
+background-color: #00FA9A;
+padding: 2em;
+}
+
+.bio-content-block h2 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2em;
+}
+
+#comp h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2em;
+padding: 0.5em;
+}
+
+#comp h2 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2em;
+}
+
+#comp a {
+font-family: 'Spectral SC', serif;
+
+}
+
+
+.comp-section-content{
+background-color: #00FA9A;
+display: flex;
+justify-content: space-around;
+}
+
+.comp-content{
+  margin: 20px;
+  width: auto;
+background-color: #00FA9A;
+}
+
+.comp-content img{
+  width: 100%;
+}
+url(images/bg-image-header.jpg)
+
+
+.comp-content p {
+  padding: 1em;
+}
+
+.comp-content a {
+  display: block;
+  padding: 1em;
+  float: right;
+  color: white;
+}
+
+#portfolio h1{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2em;
+    padding: 0.5em;
+}
+
+#portfolio h2{
+  font-family: 'Spectral SC', serif;
+  padding: 2em;
+
+}
+
+.portfolio-content{
+background-color: #00FA9A;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+
+}
+
+.portfolio-content a {
+  color: white;
+}
+
+
+.portfolio-content-item{
+
+background-color: #00FA9A;
+}
+
+footer {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-left: 0.5em; 
+
+}
+
+.adress{
+
+}
+
+.social-links{
+
+}
