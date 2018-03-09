@@ -5,14 +5,23 @@
     <title>Nana Blasch</title>
       <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/colorbox.css">
+
+
   <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Orbitron|Poiret+One|Spectral+SC|Teko|Yanone+Kaffeesatz" rel="stylesheet">
+
+
+  <script src="scripts/jquery-3.3.1.min.js"></script>
+  <script src="scripts/jquery.colorbox-min.js"></script>
+  <script src="scripts/jquery.lettering.js"></script>
+
   </head>
   <body>
 
 <header>
 <div class="header-contente-block">
 
-  <h1>Nana Blasch</h1>
+  <h1 class="fancy_title">Nana Blasch</h1>
 <p>Blablablasch</p>
 </div>
 </header>
@@ -33,7 +42,7 @@
 
       <div class="comp-section-content">
         <div class="comp-content">
-          <img src="images/photography.jpg" alt="">
+        <a class='gallery' href='images/photography.jpg'><img src="images/photography.jpg" alt="Photography"></a>
           <br>
           <br>
           <h2>Photography</h2>
@@ -43,7 +52,7 @@
         </div>
 
           <div class="comp-content">
-            <img src="images/drawing.jpg" alt="">
+            <a class='gallery' href='images/drawing.jpg'><img src="images/drawing.jpg" alt="Drawing"></a>
             <br>
             <br>
             <h2>Drawing</h2>
@@ -52,11 +61,11 @@
             <a href="#">Read More</a>
           </div>
           <div class="comp-content">
-            <img src="images/urban.jpg" alt="">
+            <a class='gallery' href='images/urban.jpg'><img src="images/urban.jpg" alt="Urban"></a>
             <br>
             <br>
             <h2>Urban Intervention</h2>
-              <br>
+          
             <p> "Les interventions urbaines ne sont pas que négatives, elles rendent un lieu expressif, peuvent permettrent de dénoncer des faits pouvant toucher un grand nombre de personnes car la rue reste un lieu d'expression."</p>
             <a href="#">Read More</a>
           </div>
@@ -69,27 +78,32 @@
                   <h1>My Portfolio</h1>
                   <div class="portfolio-content">
                       <div class="portfolio-content-item">
-                        <img src="images/portfolio1.jpg" alt="This is a protfolio item">
+<a class='gallery' href='images/portfolio1.jpg'><img src="images/portfolio1.jpg" alt="Photography"></a>
+  <h2><a href="#">Photography</a></h2>
+</div>
+
+
+    <div class="portfolio-content-item">
+<a class='gallery' href='images/portfolio2.jpg'><img src="images/portfolio2.jpg" alt="Photography"></a>
                         <h2><a href="#">Photography</a></h2>
                       </div>
+
                       <div class="portfolio-content-item">
-                        <img src="images/portfolio2.jpg" alt="This is a protfolio item">
-                        <h2><a href="#">Photography</a></h2>
+                        <a class='gallery' href='images/portfolio3.jpg'><img src="images/portfolio3.jpg" alt="Photography"></a>          <h2><a href="#">Drawing</a></h2>
                       </div>
+
                       <div class="portfolio-content-item">
-                        <img src="images/portfolio3.jpg" alt="This is a protfolio item">
+                        <a class='gallery' href='images/portfolio3.jpg'><img src="images/portfolio3.jpg" alt="Photography"></a>
                         <h2><a href="#">Drawing</a></h2>
                       </div>
+
                       <div class="portfolio-content-item">
-                        <img src="images/portfolio3.jpg" alt="This is a protfolio item">
-                        <h2><a href="#">Drawing</a></h2>
-                      </div>
-                      <div class="portfolio-content-item">
-                        <img src="images/portfolio5.jpg" alt="This is a protfolio item">
+                        <a class='gallery' href='images/portfolio5.jpg'><img src="images/portfolio5.jpg" alt="Urban Intervention"></a>
                         <h2><a href="#">Urban Intervention</a></h2>
                       </div>
+
                       <div class="portfolio-content-item">
-                        <img src="images/portfolio6.jpg" alt="This is a protfolio item">
+                      <a class='gallery' href='images/portfolio6.jpg'><img src="images/portfolio6.jpg" alt="Urban Intervention"></a>
                         <h2><a href="#">Urban Intervention</a></h2>
                       </div>
                   </div>
@@ -114,6 +128,18 @@
 
                       </footer>
 
+                      <script>
+                  	  $(document).ready(function() {
+                  	    $(".fancy_title").lettering();
+                  	  });
+                  </script>
+
+
+                      <script>
+                            jQuery(document).ready(function () {
+                              jQuery('a.gallery').colorbox({ opacity:0.5 , rel:'group1' });
+                            });
+                          </script>
 
   </body>
 
