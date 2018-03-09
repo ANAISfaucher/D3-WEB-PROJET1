@@ -28,6 +28,10 @@ padding: 2em;
 .char2 {
   font-size: 1em;
 }
+.char2:hover {
+  transform: rotate(20deg);
+  font-family: Orbitron;
+}
 
 .char3 {
   font-size: 1.5em;
@@ -43,6 +47,11 @@ padding: 2em;
   font-size: 3em;
   color: purple;
 }
+.char6:hover {
+  transform: rotate(20deg);
+  font-family: Orbitron;
+  font-size: 2em;
+}
 
 .char7 {
   font-size: 2em;
@@ -54,6 +63,21 @@ padding: 2em;
   color: white;
 }
 
+.char9:hover {
+  transform: rotate(20deg);
+  font-family: Orbitron;
+}
+
+
+.char10:hover {
+  transform: perspective(200px);
+  font-family: Orbitron;
+}
+
+.char11:hover {
+  transform: rotate(20deg);
+  font-family: Orbitron;
+}
 
 
 section{
